@@ -1,0 +1,23 @@
+{
+    "name": "sauce-playwright-tests",
+    "version": "1.0.0",
+    "description": "Testes automatizados para Sauce Demo usando Playwright",
+    "scripts": {
+        "test": "playwright test",
+        "test:headed": "playwright test --headed",
+        "test:ui": "playwright test --ui",
+        "report": "playwright show-report"
+    },
+    "keywords": [
+        "playwright",
+        "testing",
+        "automation"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@playwright/test": "^1.42.1",
+        "@types/node": "^20.11.24",
+        "typescript": "^5.3.3"
+    }
+}
